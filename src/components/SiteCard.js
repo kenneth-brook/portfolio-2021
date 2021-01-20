@@ -7,7 +7,7 @@ function SiteCard(props) {
 				<h1>{props.title}</h1>
 			</div>
 			<div className='imageWrap'>
-				<img src={props.img} />
+				<img src={props.img} alt={props.title} />
 			</div>
 		</div>
 	);
