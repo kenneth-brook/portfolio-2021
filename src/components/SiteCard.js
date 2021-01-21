@@ -20,6 +20,12 @@ function SiteCard(props) {
 					</div>
 				</div>
 			</div>
+			<div className='buttonWrap'>
+				<div className='buttonSet'>
+					<button type='button'>Go to Site</button>
+					<button type='button'>See on Github</button>
+				</div>
+			</div>
 		</div>
 	);
 }

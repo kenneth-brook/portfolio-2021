@@ -1,5 +1,7 @@
 .card {
 	width: 48%;
+	display: flex;
+	flex-direction: column;
 	border: 1px solid black;
 	border-radius: 15px;
 	margin-top: 15px;
@@ -21,6 +23,7 @@
 
 	.cardBodyWrap {
 		display: flex;
+		min-height: 380px;
 
 		.imageWrap {
 			width: 40%;
@@ -42,7 +45,7 @@
 				width: 100%;
 
 				h4 {
-					font-size: 2rem;
+					font-size: 2.5rem;
 					margin-top: 10px;
 				}
 			}
@@ -54,6 +57,25 @@
 				p {
 					font-size: 1.6rem;
 				}
+			}
+		}
+	}
+
+	.buttonWrap {
+		align-items: flex-end;
+		width: 100%;
+
+		.buttonSet {
+			display: flex;
+			justify-content: space-evenly;
+
+			button {
+				margin-bottom: 20px;
+				margin-top: 20px;
+				padding: 15px;
+				background-color: cadetblue;
+				border: none;
+				border-radius: 10px;
 			}
 		}
 	}
