@@ -1,0 +1,47 @@
+.card {
+	width: 45%;
+	border: 1px solid black;
+	border-radius: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	.titleHead {
+		background-color: cadetblue;
+		border-top-left-radius: 13px;
+		border-top-right-radius: 13px;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+
+		h1 {
+			margin-bottom: 20px;
+		}
+	}
+
+	.cardBodyWrap {
+		display: flex;
+
+		.imageWrap {
+			width: 40%;
+
+			img {
+				max-width: 250px;
+				margin: 5px 0 15px 5px;
+			}
+		}
+
+		.infoWrap {
+			width: 60%;
+		}
+
+		.stack {
+			text-align: center;
+			width: 100%;
+
+			h4 {
+				font-size: 2rem;
+				margin-top: 10px;
+			}
+		}
+	}
+}

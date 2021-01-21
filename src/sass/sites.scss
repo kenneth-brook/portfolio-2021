@@ -6,6 +6,13 @@
 	border: 1px solid black;
 	border-radius: 10px;
 
+	.cardHolder {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-top: 15px;
+	}
+
 	h1 {
 		font-size: 3.8rem;
 		margin-top: 20px;

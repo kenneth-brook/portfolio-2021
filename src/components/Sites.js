@@ -6,9 +6,19 @@ function Sites() {
 	return (
 		<div className='sitesWrap'>
 			<h1>My Web Sites</h1>
-			{data.map((dat) => {
-				return <SiteCard key={dat.id} title={dat.title} img={dat.img} />;
-			})}
+			<div className='cardHolder'>
+				{data.map((dat) => {
+					return (
+						<SiteCard
+							key={dat.id}
+							title={dat.title}
+							img={dat.img}
+							stack={dat.stack}
+							info={dat.info}
+						/>
+					);
+				})}
+			</div>
 		</div>
 	);
 }

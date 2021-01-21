@@ -6,8 +6,16 @@ function SiteCard(props) {
 			<div className='titleHead'>
 				<h1>{props.title}</h1>
 			</div>
-			<div className='imageWrap'>
-				<img src={props.img} alt={props.title} />
+			<div className='cardBodyWrap'>
+				<div className='imageWrap'>
+					<img src={props.img} alt={props.title} />
+				</div>
+				<div className='infoWrap'>
+					<div className='stack'>
+						<h4>~Tech Used~</h4>
+						<h4>{props.stack}</h4>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
