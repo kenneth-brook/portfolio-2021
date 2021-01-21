@@ -15,6 +15,9 @@ function SiteCard(props) {
 						<h4>~Tech Used~</h4>
 						<h4>{props.stack}</h4>
 					</div>
+					<div className='info'>
+						<p>{props.info}</p>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -1,9 +1,10 @@
 .card {
-	width: 45%;
+	width: 48%;
 	border: 1px solid black;
 	border-radius: 15px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.24);
 
 	.titleHead {
 		background-color: cadetblue;
@@ -32,15 +33,27 @@
 
 		.infoWrap {
 			width: 60%;
-		}
+			display: flex;
+			flex-direction: column;
+			margin-right: 10px;
 
-		.stack {
-			text-align: center;
-			width: 100%;
+			.stack {
+				text-align: center;
+				width: 100%;
 
-			h4 {
-				font-size: 2rem;
-				margin-top: 10px;
+				h4 {
+					font-size: 2rem;
+					margin-top: 10px;
+				}
+			}
+
+			.info {
+				padding-top: 20px;
+				border-top: 4px solid black;
+
+				p {
+					font-size: 1.6rem;
+				}
 			}
 		}
 	}
