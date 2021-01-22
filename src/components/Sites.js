@@ -15,6 +15,8 @@ function Sites() {
 							img={dat.img}
 							stack={dat.stack}
 							info={dat.info}
+							weblink={dat.weblink}
+							hublink={dat.hublink}
 						/>
 					);
 				})}
