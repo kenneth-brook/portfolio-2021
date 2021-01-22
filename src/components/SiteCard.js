@@ -22,10 +22,10 @@ function SiteCard(props) {
 			</div>
 			<div className='buttonWrap'>
 				<div className='buttonSet'>
-					<a href={props.weblink} target='_blank'>
+					<a href={props.weblink} target='_blank' rel='noreferrer'>
 						<button type='button'>Go to Site</button>
 					</a>
-					<a href={props.hublink} target='_blank'>
+					<a href={props.hublink} target='_blank' rel='noreferrer'>
 						<button type='button'>See on Github</button>
 					</a>
 				</div>
