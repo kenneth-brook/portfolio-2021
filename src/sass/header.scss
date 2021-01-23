@@ -4,6 +4,25 @@
 	margin-top: 15px;
 	border: 1px solid black;
 	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.leftBlock {
+		width: 25%;
+	}
+
+	.headImgWrap {
+		margin: 15px 20px;
+
+		img {
+			border-radius: 15px;
+		}
+	}
+
+	.rightBlock {
+		width: 25%;
+	}
 
 	h1 {
 		font-size: 4.5rem;
