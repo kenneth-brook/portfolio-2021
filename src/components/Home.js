@@ -7,17 +7,17 @@ function Home() {
 			<div className='infoBlockWrap'>
 				<div className='infoBlock'>
 					<div className='blockHead'>
-						<h2>Block 1</h2>
+						<h2>Why I do this.</h2>
 					</div>
 				</div>
 				<div className='infoBlock'>
 					<div className='blockHead'>
-						<h2>Block 2</h2>
+						<h2>Coming Soon</h2>
 					</div>
 				</div>
 				<div className='infoBlock'>
 					<div className='blockHead'>
-						<h2>Block 3</h2>
+						<h2>Current Projects</h2>
 					</div>
 				</div>
 			</div>

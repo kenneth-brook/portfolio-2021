@@ -7,7 +7,7 @@ function Header() {
 				<h1>Portfolio of Kenneth Brook</h1>
 			</div>
 			<div className='headImgWrap'>
-				<img src='./images/headder.jpg' alt='header image' />
+				<img src='./images/headder.jpg' alt='custom header graphic' />
 			</div>
 			<div className='rightBlock'>
 				<h1>Portfolio of Kenneth Brook</h1>
