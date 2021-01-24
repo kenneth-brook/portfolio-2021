@@ -33,6 +33,20 @@
 			margin: 0 auto;
 			border-top: 3px solid black;
 			min-height: 25px;
+			display: flex;
+			justify-content: space-around;
+			padding-top: 15px;
+			font-size: 5.5rem;
+			color: cadetblue;
+
+			a {
+				text-decoration: none;
+				color: cadetblue;
+			}
+
+			a:hover {
+				color: lime;
+			}
 		}
 	}
 
