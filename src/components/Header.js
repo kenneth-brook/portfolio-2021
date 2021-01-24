@@ -9,8 +9,11 @@ function Header() {
 			<div className='headImgWrap'>
 				<img src='./images/headder.jpg' alt='custom header graphic' />
 			</div>
-			<div className='rightBlock'>
-				<h1>Portfolio of Kenneth Brook</h1>
+			<div className='rightWrap'>
+				<div className='rightBlock'>
+					<h1>Where to find me, and my work.</h1>
+				</div>
+				<div className='icoBlock'></div>
 			</div>
 		</header>
 	);

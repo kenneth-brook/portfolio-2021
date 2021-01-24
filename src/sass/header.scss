@@ -20,8 +20,20 @@
 		}
 	}
 
-	.rightBlock {
+	.rightWrap {
 		width: 25%;
+
+		.rightBlock {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.icoBlock {
+			width: 95%;
+			margin: 0 auto;
+			border-top: 3px solid black;
+			min-height: 25px;
+		}
 	}
 
 	h1 {
